@@ -1,28 +1,29 @@
 <html>
-    <head>
-        <title>JS - Promise</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="header">
-            <h1>Hellow World, Lets Learn Promise</h1>
+
+<head>
+    <title>JS - Promise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Hellow World, Lets Learn Promise</h1>
+    </div>
+    <div id="body">
+        <div class="card">
+            <button id="xhr-1" role="button">Request Data XHR 1</button>
+            <button id="reload-1" role="button">Reload</button>
+            <pre readonly class="event-log"></pre>
         </div>
-        <div id="body">
-            <div class="card">
-                <button id="xhr-1">Click to start request XHR 1</button>
-                <button id="reload-1">Reload</button>
-                <pre readonly class="event-log"></pre>
-            </div>
-            <div class="card">
-                <button id="xhr-2">Click to start request XHR 2</button>
-                <button id="reload-2">Reload</button>
-                <div id="xhr-2-result"></div>
-                <div id="navigation">
-                    <button id="sorting-asc">Sort A - Z</button>
-                    <button id="sorting-desc">Sort Z - A</button>
-                </div>
-            </div>
+        <div class="card">
+            <button id="xhr-2" role="button">Request Data XHR 2</button>
+            <button id="reload-2" role="button">Reload</button>
+            <button id="asc">Ascending ▲</button>
+            <button id="desc">Descending ▼</button>
+            <div id="xhr-2-result"></div>
         </div>
-        <script type="module" src="script.js"></script>
-    </body>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
 </html>
